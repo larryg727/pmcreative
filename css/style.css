@@ -1,0 +1,143 @@
+body, html {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: Snell Roundhand, cursive;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    padding: 20px 15px;
+}
+
+nav {
+    background-color: #546B87;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height: 60px
+}
+
+#navLogo {
+    width: 300px;
+    height: 110px;
+    background-color: #8F752C;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#navLogo > img {
+    width: 300px;
+}
+
+#navMenu {
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-self: center;
+}
+
+#navMenu > a {
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    background:
+    linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)
+    ),
+    url("../img/pmheromaybe.jpg") no-repeat bottom right fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin: 0;
+padding: 0;
+width: 100%;
+height: 95vh;
+/* min-height: 800px; */
+}
+
+#headerMsg {
+    font-size: 2.5em;
+    width: 35%;
+    margin: 0 0 auto auto;
+    padding: 14vh 20% 0 0;
+    text-align: center;
+}
+
+#headerMsg > a {
+    display: block;
+    padding: 10px 12px;
+    background-color: #8F752C;
+    width: 100px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+#serviceTitle {
+    color: #3B321F;
+    font-size: 3.8em;
+    text-align: center;
+}
+
+#services {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 1.3em;
+    padding-bottom: 100px;
+}
+
+.service {
+    background-color: #19273B;
+    width: 28%;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+    background-position: 50% 25%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+footer {
+    background-color: #546B87;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+}
+
+#footerMenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+    padding: 75px 0 25px 0;
+}
